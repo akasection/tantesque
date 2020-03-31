@@ -1,7 +1,7 @@
 {
   "name": "tantesque",
   "version": "1.0.0",
-  "description": "Tan T Finance Web",
+  "description": "Your financing solution to khilaf and purchasing",
   "author": "SECTION",
   "private": true,
   "scripts": {
@@ -21,22 +21,26 @@
     }
   },
   "dependencies": {
+    "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
-    "element-ui": "^2.4.11"
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "husky": "^4.0.0",
-    "lint-staged": "^10.0.0",
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
-    "vue-jest": "^4.0.0-0",
-    "ts-jest": "^25.0.0"
+    "lint-staged": "^10.0.0",
+    "ts-jest": "^25.0.0",
+    "vue-jest": "^4.0.0-0"
   }
 }
